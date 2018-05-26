@@ -1,7 +1,0 @@
-graft docs
-include description.rst
-include COPYING
-include COPYING.LESSER
-include README.md
-include waa2wls-protocol.txt
-include raven/keys/pubkey*

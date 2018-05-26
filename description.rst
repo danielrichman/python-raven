@@ -1,26 +1,13 @@
-Python dependencies
-===================
+This is a compatibility wrapper around
+`python-ucam-webauth <https://github.com/danielrichman/python-ucam-webauth>`_
+only, to avoid conflicting with the `raven` package.
 
-* nose (for unit testing only)
-* flask (for `ucam_webauth.flask_glue` and `simple_demo/`)
-
-License
-=======
-
-BSD-2-Clause, see COPYING.
-
-`Documentation <https://python-ucam-webauth.readthedocs.io/en/latest/>`_
-========================================================================
-
-`Quickstart <https://python-ucam-webauth.readthedocs.io/en/latest/quickstart.html>`_
-====================================================================================
+This package exposes `ucam_webauth.raven` as `raven`. This is how the library
+used to be packaged, pre v0.9. You should ideally depend on `python-ucam-webauth`
+and import `ucam_webauth.raven` directly.
 
 Other links
 ===========
 
-* `source on github <https://github.com/danielrichman/python-ucam-webauth>`_
-* `documentation`_
-* `pypi page <https://pypi.python.org/pypi/python-ucam-webauth>`_
-* `Raven documentation <https://raven.cam.ac.uk/project/>`_
-* `WAA2WLS protocol <https://raven.cam.ac.uk/project/waa2wls-protocol.txt>`_
-
+* `python-ucam-webauth package <https://pypi.org/project/python-ucam-webauth/>`_
+* `source on github <https://github.com/danielrichman/python-raven>`_
