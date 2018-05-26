@@ -6,7 +6,3 @@ only, to avoid conflicting with the `raven` package.
 
 This package exposes `ucam_webauth.raven` as `raven`. You should ideally depend
 on `python-ucam-webauth` and import `ucam_webauth.raven` directly.
-
-## License
-
-GNU LGPLv3, see COPYING
