@@ -7,7 +7,7 @@ with open(filename) as f:
 
 setup(
     name = "python-raven",
-    version = "0.9.2",
+    version = "0.9.2.1",
     packages = ["raven"],
     install_requires = ["setuptools", "python-ucam-webauth"],
     extras_require = {"flask_glue": ["Flask"]},
